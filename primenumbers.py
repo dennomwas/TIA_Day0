@@ -10,6 +10,10 @@ def prime_numbers(num):
 
 n = int(input("Enter the max number of Prime numbers to print : "))
 
+for primes in range(2, num + 1):
+    if prime_numbers(primes):
+        print (primes),
+
 
 
 
